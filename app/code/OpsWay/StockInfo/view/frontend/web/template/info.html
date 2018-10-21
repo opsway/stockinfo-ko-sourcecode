@@ -1,0 +1,14 @@
+<div class="action primary"
+     data-bind="click:checkTheStock"
+     id="get-the-qty">
+    <span><!-- ko i18n: 'Check the stock'--><!-- /ko --></span>
+</div>
+<!-- ko if: showInfo -->
+<div>
+    <p>
+        <span data-bind="text:qty"></span>
+        <!-- ko i18n: 'in stock'--><!-- /ko -->
+    </p>
+</div>
+<!-- /ko -->
+<br>

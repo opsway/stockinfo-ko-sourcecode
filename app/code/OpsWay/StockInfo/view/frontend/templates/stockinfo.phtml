@@ -1,0 +1,10 @@
+<div id="info-component" data-bind="scope:'infoComponent'">
+    <!-- ko template: getTemplate() --><!-- /ko -->
+</div>
+<script type="text/x-magento-init">
+    {
+      "#info-component": {
+          "Magento_Ui/js/core/app": <?php /* @escapeNotVerified */ echo $block->getJsLayout();?>
+      }
+    }
+</script>
